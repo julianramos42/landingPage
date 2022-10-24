@@ -1,0 +1,128 @@
+body {
+    background-color: #000;
+    color: #FFF;
+    font-family: montserrat;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+}
+
+header nav {
+    text-align: right;
+    display: inline-block;
+    width: 60%;
+}
+
+header ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    padding-right: 20px;
+    margin-top: 70px;
+}
+
+header ul li a {
+    text-decoration: none;
+    border: solid;
+    border-color: rgb(195, 14, 47);
+    border-radius: 5px;
+    background-color: rgb(195, 14, 47);
+    color: white;
+    padding: 0.5em;
+}
+
+header ul li a:hover {
+    background-color: #B8B799;
+    border-color: #B8B799;
+}
+
+header ul li a:active {
+    padding: 0.2em;
+}
+
+#header-img {
+    width: 15%;
+    display: inline-block;
+}
+
+.descripcion {
+    text-align: left;
+    padding-top: 120px;
+}
+
+div ul li {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+div ul p {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+iframe {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#form {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#form #email{
+    width: 180px;
+}
+
+#pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 5);
+    margin: 10px;
+    border: 1px solid #F00;
+    border-radius: 3px;
+}
+
+.level {
+    background-color: rgb(195, 14, 47);
+    color: white;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.product h2 {
+    font-size: 18px;
+}
+
+.product p{
+    margin: 10px ;
+}
+
+.product button {
+    background-color: rgb(195, 14, 47);
+    color: white;
+}
